@@ -1,0 +1,20 @@
+html
+  head
+    title= 'У нас новенький!'
+  body
+    h1= 'Будем знакомы'
+    form(
+      method='POST'
+      action='/signup'
+    )
+      input(
+        type='text'
+        name='email'
+      )
+      input(
+        type='password'
+        name='password'
+      )
+      button(
+        type='submit'
+      ) Принимайте
